@@ -1,0 +1,6 @@
+# Device		Mountpoint	FStype	Options		Dump	Pass#
+fdesc			/dev/fd fdescfs rw,late 0 0
+proc			/proc   procfs  rw,late 0 0
+linprocfs		/compat/linux/proc linprocfs rw,late 0 0
+linsysfs		/compat/linux/sys  linsysfs  rw,late 0 0
+tmpfs			/compat/linux/dev/shm tmpfs rw,late,mode=1777 0 0

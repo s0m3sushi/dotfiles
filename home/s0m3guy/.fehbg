@@ -1,0 +1,2 @@
+#!/bin/sh
+feh --no-fehbg --bg-fill '/home/s0m3guy/Pictures/IMG_20240128_075816.png' 
